@@ -1,355 +1,39 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jiang Presentation Pro</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<style>
-
-/* =============================
-   主題變數
-============================= */
-
-:root{
-  --bg1:#0f2027;
-  --bg2:#203a43;
-  --bg3:#2c5364;
-
-  --card:#1e1e1e;
-  --text:#ffffff;
-  --sub:#b3bac3;
-}
-
-.light{
-  --bg1:#f5f7fa;
-  --bg2:#c3cfe2;
-  --bg3:#e2ebf0;
-
-  --card:#ffffff;
-  --text:#111;
-  --sub:#444;
-}
-
-/* =============================
-   基礎
-============================= */
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:'Poppins',sans-serif;
-}
-
-body{
-  overflow:hidden;
-  color:var(--text);
-  background:linear-gradient(-45deg,var(--bg1),var(--bg2),var(--bg3));
-  background-size:400% 400%;
-  animation:bgMove 15s ease infinite;
-  transition:.3s;
-}
-
-/* 背景動畫 */
-@keyframes bgMove{
-  0%{background-position:0% 50%;}
-  50%{background-position:100% 50%;}
-  100%{background-position:0% 50%;}
-}
-
-/* =============================
-   Section
-============================= */
-
-.section{
-  height:100vh;
-  width:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-direction:column;
-  padding:40px 20px;
-  position:absolute;
-  top:0;
-  left:0;
-  opacity:0;
-  transform:translateY(100px);
-  transition:.8s cubic-bezier(.77,0,.18,1);
-}
-
-.section.active{
-  opacity:1;
-  transform:translateY(0);
-  z-index:1;
-}
-
-/* =============================
-   左側圓點
-============================= */
-
-.dots{
-  position:fixed;
-  left:30px;
-  top:50%;
-  transform:translateY(-50%);
-  display:flex;
-  flex-direction:column;
-  gap:15px;
-}
-
-.dot{
-  width:12px;
-  height:12px;
-  border-radius:50%;
-  background:rgba(255,255,255,.4);
-  cursor:pointer;
-  transition:.3s;
-}
-
-.dot.active{
-  background:#fff;
-  transform:scale(1.5);
-}
-
-/* =============================
-   About Card
-============================= */
-
-.card{
-  background:var(--card);
-  padding:40px;
-  border-radius:20px;
-  width:320px;
-  text-align:center;
-  box-shadow:0 20px 50px rgba(0,0,0,.5);
-  transform:translateY(40px);
-  opacity:0;
-  transition:1s;
-}
-
-.section.active .card{
-  transform:translateY(0);
-  opacity:1;
-}
-
-.card img{
-  width:140px;
-  border-radius:20px;
-  margin-bottom:20px;
-}
-
-.button{
-  display:block;
-  padding:12px;
-  margin:8px 0;
-  border-radius:30px;
-  text-decoration:none;
-  color:#fff;
-  font-weight:500;
-  transition:.3s;
-}
-
-.button:hover{
-  transform:scale(1.05);
-}
-
-.fb{background:#1877f2;}
-.ig{background:#e1306c;}
-.thread{background:#333;}
-.line{background:#07B53B;}
-.github{background:#0d1117;}
-.paypal{background:#0070e0;}
-.blog{background:#ff9800;}
-
-/* =============================
-   一般頁面
-============================= */
-
-h1{
-  margin-bottom:30px;
-  font-size:40px;
-}
-
-.link-list{
-  display:flex;
-  flex-direction:column;
-  gap:15px;
-  width:300px;
-}
-
-.link-item{
-  padding:15px;
-  border-radius:15px;
-  background:var(--card);
-  text-align:center;
-  transition:.3s;
-}
-
-.link-item:hover{
-  transform:translateY(-5px);
-}
-
-/* =============================
-   主題按鈕
-============================= */
-
-.theme-toggle{
-  position:fixed;
-  top:20px;
-  right:20px;
-  background:var(--card);
-  padding:10px 15px;
-  border-radius:30px;
-  cursor:pointer;
-  font-size:14px;
-}
-
-/* =============================
-   手機優化
-============================= */
-
-@media(max-width:768px){
-
-  .card{width:100%;}
-  .dots{left:10px;}
-  h1{font-size:28px;}
-
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
-<div class="theme-toggle" onclick="toggleTheme()">切換模式</div>
-
-<div class="dots"></div>
-
-<!-- About -->
-<section class="section active">
-<div class="card">
-<img src="mejpg.jpg">
-<h1>Jiang Long Tai</h1>
-<p>目前還沒想到自我介紹，下次再來看ㄅ</p>
-
-<a href="#" class="button fb">Facebook</a>
-<a href="#" class="button ig">Instagram</a>
-<a href="#" class="button thread">Threads</a>
-<a href="#" class="button line">Line</a>
-<a href="#" class="button github">GitHub</a>
-<a href="#" class="button paypal">PayPal</a>
-<a href="#" class="button blog">My Blog</a>
-</div>
-</section>
-
-<!-- Music -->
-<section class="section">
-<h1>Music</h1>
-<div class="link-list">
-<div class="link-item">Annin Miru さいこう</div>
-</div>
-</section>
-
-<!-- Experience -->
-<section class="section">
-<h1>Experience</h1>
-<div class="link-list">
-<div class="link-item">CloudXact - 網頁工程師</div>
-<div class="link-item">NewLand - Discord Bot 工程師</div>
-<div class="link-item">SCAICT - 臨時工人</div>
-</div>
-</section>
-
-<!-- Calendar -->
-<section class="section">
-<h1>Calendar</h1>
-<iframe src="https://calendar.google.com/calendar/embed?ctz=Asia%2FTaipei"
-width="80%" height="500" style="border:0;border-radius:20px;"></iframe>
-</section>
-
-<script>
-
-/* =============================
-   Slide 控制（專業鎖定式）
-============================= */
-
-const sections = document.querySelectorAll(".section");
-const dotsContainer = document.querySelector(".dots");
-let current = 0;
-let isScrolling = false;
-
-/* 建立圓點 */
-sections.forEach((_,i)=>{
-  const dot=document.createElement("div");
-  dot.classList.add("dot");
-  if(i===0) dot.classList.add("active");
-  dot.onclick=()=>goTo(i);
-  dotsContainer.appendChild(dot);
-});
-
-const dots=document.querySelectorAll(".dot");
-
-function goTo(index){
-  if(index<0||index>=sections.length) return;
-  sections[current].classList.remove("active");
-  dots[current].classList.remove("active");
-
-  current=index;
-
-  sections[current].classList.add("active");
-  dots[current].classList.add("active");
-}
-
-/* 滾輪鎖定 */
-window.addEventListener("wheel",e=>{
-  if(isScrolling) return;
-  isScrolling=true;
-
-  if(e.deltaY>0) goTo(current+1);
-  else goTo(current-1);
-
-  setTimeout(()=>isScrolling=false,900);
-});
-
-/* 鍵盤 */
-window.addEventListener("keydown",e=>{
-  if(["ArrowDown","ArrowRight","s","d"].includes(e.key))
-    goTo(current+1);
-  if(["ArrowUp","ArrowLeft","w","a"].includes(e.key))
-    goTo(current-1);
-});
-
-/* 手機滑動 */
-let startY=0;
-window.addEventListener("touchstart",e=>{
-  startY=e.touches[0].clientY;
-});
-window.addEventListener("touchend",e=>{
-  let diff=startY-e.changedTouches[0].clientY;
-  if(diff>50) goTo(current+1);
-  if(diff<-50) goTo(current-1);
-});
-
-/* =============================
-   主題記憶
-============================= */
-
-function toggleTheme(){
-  document.body.classList.toggle("light");
-  localStorage.setItem("theme",
-    document.body.classList.contains("light")?"light":"dark"
-  );
-}
-
-window.onload=()=>{
-  if(localStorage.getItem("theme")==="light"){
-    document.body.classList.add("light");
-  }
-};
-
-</script>
-
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is a brief introduction about myself.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Details of my projects can go here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Personal Website</p>
+    </footer>
 </body>
 </html>
