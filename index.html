@@ -141,79 +141,7 @@
     <h2>
       經驗與活動
     </h2>
-    <div class="grid">
-      <a target="_blank" href="https://scaict.org/">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/SCAICT.png" alt="SCAICT" height="60px">
-          <p style="font-size: 20px;">
-            SCAICT<br/>
-            Summer Camps<br/>
-            隊輔組組員
-            </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://scaict.org/">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/SCAICT.png" alt="SCAICT" height="60px">
-          <p style="font-size: 20px;">
-            SCAICT<br/>
-            第五屆 - 臨時工人
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://sitcon.org/2026/">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/SITCON_2026.svg" alt="SITCON" height="60px">
-          <p style="font-size: 20px;">
-            SITCON<br/>
-            2026 - 邀請票會眾
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://scaict.org/">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/SCAICT.png" alt="SCAICT" height="60px">
-          <p style="font-size: 20px;">
-            SCAICT<br/>
-            第四屆 - 臨時工人
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://devfest-taipei.gdg.tw/2025/">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/GDG.svg" alt="GDG" height="60px">
-          <p style="font-size: 20px;">
-            DevFest Taipei<br/>
-            2025 - 會眾
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://coscup.org/2025/">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/COSCUP.svg" alt="COSCUP" height="60px">
-          <p style="font-size: 20px;">
-            COSCUP<br/>
-            2025 - 會眾
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="public/images/events/NUTC_CSIE.jpeg" alt="NUTC CSIE" height="60px">
-          <p style="font-size: 20px;">
-            國立台中科技大學<br/>
-            資訊工程科科學會<br/>
-            第五屆 - 行銷組
-          </p>
-        </div>
-      </a>
+    <div class="grid" id="experience-container">
     </div>
   </section>
 
@@ -470,6 +398,34 @@
 
   </footer>
 
+<script>
+  const container = document.getElementById('experience-container');
 
+fetch('experiences.json')
+  .then(response => {
+    if (!response.ok) throw new Error('無法讀取 JSON 資料');
+    return response.json();
+  })
+  .then(data => {
+    // 遍歷 JSON 陣列，產生 HTML 字串
+    const htmlContent = data.map(item => `
+      <a target="_blank" href="${item.link}">
+        <div class="card">
+          <br/>
+          <img loading="lazy" src="${item.img}" alt="${item.alt}" height="60px">
+          <p style="font-size: 20px;">
+            ${item.title}<br/>
+            ${item.subtitle}<br/>
+            ${item.role}
+          </p>
+        </div>
+      </a>
+    `).join(''); // 將陣列合併為單一字串
+
+    // 渲染到網頁上
+    container.innerHTML = htmlContent;
+  })
+  .catch(error => console.error('錯誤:', error));
+</script>
 </body>
 </html>

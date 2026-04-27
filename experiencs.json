@@ -1,0 +1,42 @@
+[
+  {
+    "link": "https://scaict.org/",
+    "img": "public/images/events/SCAICT.png",
+    "alt": "SCAICT",
+    "title": "SCAICT",
+    "subtitle": "Summer Camps",
+    "role": "隊輔組組員"
+  },
+  {
+    "link": "https://scaict.org/",
+    "img": "public/images/events/SCAICT.png",
+    "alt": "SCAICT",
+    "title": "SCAICT",
+    "subtitle": "第五屆",
+    "role": "臨時工人"
+  },
+  {
+    "link": "https://sitcon.org/2026/",
+    "img": "public/images/events/SITCON_2026.svg",
+    "alt": "SITCON",
+    "title": "SITCON",
+    "subtitle": "2026",
+    "role": "邀請票會眾"
+  },
+  {
+    "link": "https://devfest-taipei.gdg.tw/2025/",
+    "img": "public/images/events/GDG.svg",
+    "alt": "GDG",
+    "title": "DevFest Taipei",
+    "subtitle": "2025",
+    "role": "會眾"
+  },
+  {
+    "link": "",
+    "img": "public/images/events/NUTC_CSIE.jpeg",
+    "alt": "NUTC CSIE",
+    "title": "國立台中科技大學",
+    "subtitle": "資訊工程科科學會",
+    "role": "第五屆 - 行銷組"
+  }
+]
