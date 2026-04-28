@@ -3,8 +3,8 @@
     "link": "",
     "img": "public/images/events/Zepro.jpg",
     "alt": "Zepro",
-    "title": "2026 Zepro Run",
-    "subtitle": "Taichung",
+    "title": "Zepro Run Taichung",
+    "subtitle": "2026",
     "role": "21K 跑者"
   },
   {
@@ -51,7 +51,8 @@
     "link": "",
     "img": "public/images/events/2022萬金石馬拉松.png",
     "alt": "新北市萬金石馬拉松",
-    "title": "2022 新北市萬金石馬拉松",
+    "title": "新北市萬金石馬拉松",
+    "subtitle": "2022",
     "role": "跑者"
   },
   {
@@ -59,6 +60,7 @@
     "img": "public/images/events/2023 稻鎮好柚獲路跑.jpg",
     "alt": "2023 稻鎮好柚獲路跑",
     "title": "2023 稻鎮好柚獲路跑",
+    "subtitle": "2023",
     "role": "跑者"
   },
   {
