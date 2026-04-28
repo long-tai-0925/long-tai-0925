@@ -9,6 +9,36 @@
 
     * { box-sizing: border-box; }
 
+/* 全域圖片基礎設定 */
+img {
+  max-width: 100%; /* 絕對不會超過父容器寬度 */
+  height: auto;    /* 自動維持原始比例 */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* 針對「經驗」與「贊助」卡片內的圖片 */
+.card img {
+  max-height: 80px;      /* 限制最高高度，避免有些 Logo 太大 */
+  width: auto;           /* 寬度隨比例縮放 */
+  object-fit: contain;   /* 確保圖片內容完整顯示不被裁切 */
+  margin-bottom: 10px;   /* 增加下方間距代替 <br/> */
+}
+
+/* 針對「大電神」頭像 */
+.friend-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* 頭像通常是圓的，用 cover 填滿效果最好 */
+}
+
+/* 如果有社群媒體圖示 */
+.social-icon img {
+  width: 100%;
+  height: auto;
+  padding: 10px; /* 留點呼吸空間 */
+}
+
     html {
       scroll-behavior: smooth;
     }
