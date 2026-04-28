@@ -220,7 +220,7 @@ window.addEventListener('error', function(e) {
         if (e.target.closest('.friend-avatar')) {
             e.target.src = 'https://www.gravatar.com/avatar/00000000?d=mp';
         } else {
-            e.target.src = 'public/images/other/default-icon.png';
+            e.target.src = 'public/images/events/nopng.png';
         }
     }
 }, true); // 注意這裡要設為 true，因為 error 事件不會冒泡
