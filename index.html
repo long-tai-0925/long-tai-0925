@@ -213,6 +213,17 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(err => console.error(`Error loading ${conf.url}:`, err));
   });
 });
+
+window.addEventListener('error', function(e) {
+    if (e.target.tagName.toLowerCase() === 'img') {
+        // 如果是頭像區塊，給頭像預設圖，否則給一般預設圖
+        if (e.target.closest('.friend-avatar')) {
+            e.target.src = 'https://www.gravatar.com/avatar/00000000?d=mp';
+        } else {
+            e.target.src = 'public/images/other/default-icon.png';
+        }
+    }
+}, true); // 注意這裡要設為 true，因為 error 事件不會冒泡
 </script>
 </body>
 </html>
