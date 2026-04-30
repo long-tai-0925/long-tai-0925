@@ -4,7 +4,8 @@
     "img": "public/images/events/Zepro.jpg",
     "alt": "Zepro",
     "title": "Zepro Run Taichung",
-    "subtitle": "2026",
+    "subtitle": "Taichung",
+    "years": "2026",
     "role": "21K 跑者"
   },
   {
@@ -12,16 +13,9 @@
     "img": "public/images/events/SCAICT.png",
     "alt": "SCAICT",
     "title": "SCAICT",
-    "subtitle": "Summer Camps",
+    "subtitle": "資暑與你",
+    "years": "2026",
     "role": "隊輔組組員"
-  },
-  {
-    "link": "https://scaict.org/",
-    "img": "public/images/events/SCAICT.png",
-    "alt": "SCAICT",
-    "title": "SCAICT",
-    "subtitle": "第五屆",
-    "role": "臨時工人"
   },
   {
     "link": "https://sitcon.org/2026/",
@@ -29,15 +23,26 @@
     "alt": "SITCON",
     "title": "SITCON",
     "subtitle": "2026",
+    "years": "2026",
     "role": "邀請票會眾"
   },
   {
     "link": "https://devfest-taipei.gdg.tw/2025/",
     "img": "public/images/events/GDG.svg",
     "alt": "GDG",
-    "title": "DevFest Taipei",
-    "subtitle": "2025",
+    "title": "DevFest",
+    "subtitle": "Taipei",
+    "years": "2025",
     "role": "會眾"
+  },
+  {
+    "link": "https://scaict.org/",
+    "img": "public/images/events/SCAICT.png",
+    "alt": "SCAICT",
+    "title": "SCAICT",
+    "subtitle": "第五屆",
+    "years": "2025",
+    "role": "臨時工人"
   },
   {
     "link": "https://linktr.ee/nutccsie",
@@ -45,14 +50,16 @@
     "alt": "NTCUST CSIE",
     "title": "國立台中科技大學",
     "subtitle": "資訊工程科科學會",
+    "years": "2024",
     "role": "第五屆 - 行銷組"
   },
   {
     "link": "https://zh.wikipedia.org/zh-tw/2022年新北市萬金石馬拉松",
     "img": "public/images/events/2022萬金石馬拉松.jpg",
     "alt": "新北市萬金石馬拉松",
-    "title": "新北市萬金石馬拉松",
-    "subtitle": "2022",
+    "title": "新北市",
+    "subtitle": "萬金石馬拉松",
+    "years": "2022",
     "role": "(不確定)K - 跑者"
   },
   {
@@ -60,7 +67,8 @@
     "img": "public/images/events/2023 稻鎮好柚獲路跑.jpg",
     "alt": "2023 稻鎮好柚獲路跑",
     "title": "稻鎮好柚獲路跑",
-    "subtitle": "2023",
+    "subtitle": "玉里鎮",
+    "years": "2023",
     "role": "(不確定)K - 跑者"
   },
   {
@@ -68,16 +76,18 @@
     "img": "public/images/events/111 全國中等學校運動會.jpeg",
     "alt": "2022 全國中等學校運動會",
     "title": "全國中等學校運動會",
-    "subtitle": "2022",
-    "role": "國男組 - 登山車越野賽決賽"
+    "subtitle": "登山車越野賽決賽",
+    "years": "2022",
+    "role": "國男組"
   },
   {
     "link": "https://www.facebook.com/hlbhtw/posts/花蓮縣111學年度商管群國中技藝競賽於本校舉行且圓滿完成職業試探及技藝教育-幫孩子找對未來的方向%EF%B8%8F%EF%B8%8F歡迎各校參賽選手共8校合計24位選手國風國中鳳林國中-光復國/703272488257034",
     "img": "",
     "alt": "111 花蓮縣國中技藝競賽",
     "title": "花蓮縣國中技藝競賽",
-    "subtitle": "2022",
-    "role": "佳作 - 商業管理職群"
+    "subtitle": "商業管理職群",
+    "years": "2022",
+    "role": "佳作"
     
   },
   {
@@ -85,7 +95,8 @@
     "img": "public/images/events/2021PTWA.jpg",
     "alt": "PTWA",
     "title": "PTWA全國自走車大賽",
-    "subtitle": "2021",
-    "role": "佳作 - 相撲賽"
+    "subtitle": "相撲賽",
+    "years": "2021",
+    "role": "佳作"
   }
 ]
