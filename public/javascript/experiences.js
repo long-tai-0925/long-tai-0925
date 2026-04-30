@@ -5,8 +5,7 @@ export const experienceConfig = {
     <a target="_blank" href="${i.link || '#'}">
       <div class="card">
         <img loading="lazy" src="${i.img}" alt="${i.alt}">
-        <p>
-          ${i.years ? `<span class="ex-tag">${i.years}</span><br/>` : ''}
+        <p> 
           ${i.title}<br/>
           ${i.subtitle ? i.subtitle + '<br/>' : ''}
           ${i.role}
