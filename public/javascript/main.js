@@ -1,9 +1,9 @@
-import { experienceConfig } from '/public/javascript/experiences.js';
-import { friendsConfig } from '/public/javascript/friends.js';
-import { supportConfig } from 'public/javascript/support.js';
-import { adsConfig } from '/public/javascript/ads.js';
-import { initTyping, initScrollReveal, initHeaderScroll } from '/public/javascript/ui.js';
-import { applySpecialStyles } from '/public/javascript/special.js';
+import { experienceConfig } from './experience.js';
+import { friendsConfig } from './friends.js';
+import { supportConfig } from './support.js';
+import { adsConfig } from './ads.js';
+import { initTyping, initScrollReveal, initHeaderScroll } from './ui.js';
+import { applySpecialStyles } from './special.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. 初始化 UI 效果
