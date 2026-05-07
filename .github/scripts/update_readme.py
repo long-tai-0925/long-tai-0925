@@ -45,7 +45,7 @@ if __name__ == "__main__":
     # 處理專案區塊 (如果檔案已存在)
     try:
         proj_data = fetch_data(SOURCES["projects"])
-        readme_content = update_section(readme_content, "projects", render_projects(proj_data))
+        readme_content = update_section(readme_content, "support", render_support(supp_data))
     except:
         print("Projects JSON 尚未就緒，跳過...")
 
