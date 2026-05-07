@@ -21,6 +21,13 @@
 
 ## 愛與支援
 <!-- START_SECTION:support -->
+
+| 項目 | 描述 | 角色 |
+| :--- | :--- | :--- |
+| SITCON 2026 |  |  |
+| SCAICT | SITCON 2026 |  |
+| SITCON 2026 |  |  |
+
 <!-- END_SECTION:support -->
 
 ## GitHub 資訊
