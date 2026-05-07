@@ -7,7 +7,6 @@
 | 2026 | [SCAICT](https://scaict.org/) | 資暑與你 | 隊輔組組員 |
 | 2026 | [Zepro Run](https://www.ctrun.com.tw/Activity?EventMain_ID=282) | Taichung | 21K 跑者 |
 | 2026 | [SITCON](https://sitcon.org/2026/) | Jam the Chaos | 邀請票會眾 |
-| 2026 | TEST | TEST | TEST |
 | 2025 | [DevFest](https://devfest-taipei.gdg.tw/2025/) | Taipei | 會眾 |
 | 2025 | [COSCUP](https://coscup.org/2025/) | RubyConf Taiwan | 會眾 |
 | 2025 | [SCAICT](https://scaict.org/) | 第五屆 | 臨時工人 |
