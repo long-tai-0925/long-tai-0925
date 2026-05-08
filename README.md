@@ -1,11 +1,17 @@
 # Jiang
+## 相關資訊
+| [個人網頁](https://longtai.org/) |
+| [GitHub](https://github.com/long-tai-0925) |
+| [Telegram](https://t.me/lcngtai) |
+| [Instagram](https://instagram.com/jiang.0925) |
+| [Notion 筆記](https://broad-cotija-e7e.notion.site/114-310f7134db158042a236d68bcfbd571b?pvs=74) |
+| [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=longtai010925@gmail.com&cid=bf537202b4e8f6ad769d9c95dff5fa3b92d992b4d5b9c244e3d26ae7d5063fe6@group.calendar.google.com&cid=ce8e4f85204848c916960bf82fc01d8e2dd6bbfd5636549c82308d1d870ca46b@group.calendar.google.com) |
+| [Gravatar](https://gravatar.com/brisklybreade80de904f9) |
 
 ## GitHub 資訊
-<div align="center">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=long-tai-0925&show_icons=true&theme=radical" height="150" alt="stats graph"  />
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=long-tai-0925&layout=compact&theme=radical" height="150" alt="top languages graph"  />
-    <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=long-tai-0925&theme=radical" height="150" alt="Streak">
-</div>
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=long-tai-0925&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=long-tai-0925&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=long-tai-0925&layout=compact&theme=radical)
 
 ## 經驗與活動
 <!-- START_SECTION:experiences -->
