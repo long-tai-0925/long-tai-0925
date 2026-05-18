@@ -1,9 +1,5 @@
 # Jiang
 
-## Pull-Requests
-### Friends
-[Friends](https://github.com/long-tai-0925/long-tai-0925/blob/main/public/json/friends.json )
-
 
 ## 相關資訊
 | [個人網頁](https://longtai.org/) |
